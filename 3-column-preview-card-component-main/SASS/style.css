@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("https://fonts.google.com/specimen/Lexend+Deca");
+}
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+ul,
+ol,
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+  list-style-type: none;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+button {
+  border: none;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+img,
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+:root {
+  --clr-primary-Bright-orange: hsl(31, 77%, 52%);
+  --clr-primary-Dark-cyan: hsl(184, 100%, 22%);
+  --clr-primary-Very-dark-cyan: hsl(179, 100%, 13%);
+  --clr-neutral-Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-Very-light-gray-background: hsl(0, 0%, 95%);
+  --clr-neutral-Very-light-gray-headings: hsl(0, 0%, 95%);
+  --clr-neutral-Very-light-gray-buttons: hsl(0, 0%, 95%);
+  --spc-margin-25: 25px;
+  --spc-border-10: 10px;
+  --spc-border-17: 17px;
+}/*# sourceMappingURL=style.css.map */
