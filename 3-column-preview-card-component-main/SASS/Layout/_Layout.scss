@@ -1,0 +1,12 @@
+.Cards {
+    display: flex;
+    flex-direction: column;
+    width: 20.375rem;
+    margin: 5.5rem 0rem;
+
+    @media screen and (min-width: 90rem) {
+        flex-direction: row;
+        width: 56.25rem;
+        height: 31.25rem;
+    }
+}

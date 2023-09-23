@@ -1,0 +1,14 @@
+.Card__Button {
+    height: 3rem;
+    width: 9.1875rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-neutral-Very-light-gray-buttons);
+    font-size: .9375rem;
+    mix-blend-mode: screen;
+    font-weight: 700;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+}
